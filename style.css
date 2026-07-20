@@ -1,0 +1,14 @@
+
+html{scroll-behavior:smooth}
+body{margin:0;background:#080808;color:#F3F0EA;font-family:Inter,sans-serif}
+.hero{min-height:100vh;background:url('assets/photo1.jpg') center/cover no-repeat;position:relative;display:flex;align-items:center;justify-content:center}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.content{position:relative;max-width:760px;padding:2rem;text-align:center;animation:fade 1.2s}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,8vw,6rem);letter-spacing:.18em;margin:0 0 1rem}
+p{font-size:1.15rem;line-height:1.8}
+.buttons{margin-top:2rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+a{color:#F3F0EA;text-decoration:none;border:1px solid #F3F0EA;padding:.9rem 1.4rem;border-radius:999px}
+a:hover{background:#F3F0EA;color:#080808}
+.image img{display:block;width:100%}
+footer{text-align:center;padding:3rem;color:#aaa}
+@keyframes fade{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
